@@ -24,34 +24,43 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
   ![Administracion](https://github.com/user-attachments/assets/a4e6e749-8e81-4105-9a31-299345b81b4b)
   
   
-- **Área: Gerencia**  
-  ![Gerencia](//imagen-pronto)
+- **Área: Gerencia** 
+
+  ![Gerencia](https://github.com/user-attachments/assets/b1cda41c-be17-4693-ac19-fd50c2cbc2a3)
 
 - **Área: Atención al Cliente**  
-  ![Atencion al Cliente](//imagen-pronto)
+  ![Atencion al Cliente](https://github.com/user-attachments/assets/6c0a11ff-9213-4290-a70e-b623bc913598)
+
 
 - **Área: Recursos Humanos**  
-  ![Recursos Humanos](//imagen-pronto)
+  ![Recursos Humanos](https://github.com/user-attachments/assets/808e69f1-13cd-47ec-bc23-9575f6e8411e)
+
 
 ### Nivel 2
 - **Área: Oficina A**  
-  ![Oficina A](//imagen-pronto)
+  ![Oficina A](https://github.com/user-attachments/assets/11be1a2c-5dd2-49b9-a75f-9a6612303014)
+
 
 - **Área: Oficina B**  
-  ![Oficina B](//imagen-pronto)
+  ![Oficina B](https://github.com/user-attachments/assets/5efa211c-ce7e-4ae5-afee-a7d39d2fea05)
+
 
 - **Área: Oficina C**  
-  ![Oficina C](//imagen-pronto)
+  ![Oficina C](https://github.com/user-attachments/assets/f5eebcbf-96b3-46a2-8e77-f50fe39fdef2)
+
 
 ### Nivel 3
 - **Área: Recepción**  
-  ![Recepcion](//imagen-pronto)
+  ![Recepcion](https://github.com/user-attachments/assets/44df9b52-f6f1-4dc9-a954-6f7b890d0cc3)
+
 
 - **Área: TI**  
-  ![TI](//imagen-pronto)
+  ![TI](https://github.com/user-attachments/assets/74e8635e-b511-476b-b3d8-703722f546e4)
+
 
 - **Área: Ventas**  
-  ![Ventas](//imagen-pronto)
+  ![Ventas](https://github.com/user-attachments/assets/3b19b545-c901-4b2f-a378-47f02ed681dc)
+
 
 ---
 
