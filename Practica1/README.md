@@ -91,5 +91,8 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 ## Captura de Paquetes ARP/ICMP
 
 - **Captura de Paquetes ARP/ICMP**  
-  ![Captura de Paquetes](//imagen-pronto)  
-  ![Video Captura](//video-pronto)
+  ![Captura de Paquetes](//imagen-pronto)
+
+- **Video Explicativo**
+
+  <iframe width="560" height="315" src="https://youtu.be/_V19Wddm8ns?si=D9Zpvw_kxxqwfqQn" frameborder="0" allowfullscreen></iframe>
