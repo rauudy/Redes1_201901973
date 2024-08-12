@@ -95,8 +95,6 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 
 - **Video Explicativo**
 
-## Video Explicativo
-
 [![Videofobia](https://img.youtube.com/vi/_V19Wddm8ns/0.jpg)](https://youtu.be/_V19Wddm8ns?si=D9Zpvw_kxxqwfqQn)
 
 
