@@ -18,9 +18,11 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 
 ## Configuración de las VPCs
 
-### Nivel 1
+### Nivel 1!
+
 - **Área: Administración**  
-  ![Administracion](//imagen-pronto)
+  ![Administracion](https://github.com/user-attachments/assets/a4e6e749-8e81-4105-9a31-299345b81b4b)
+  
   
 - **Área: Gerencia**  
   ![Gerencia](//imagen-pronto)
