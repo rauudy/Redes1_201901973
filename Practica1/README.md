@@ -71,19 +71,19 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 
 
 - **Ping entre Recursos Humanos (PC8) y Oficina A (PC2)**  
-  ![Ping Recursos Humanos PC8 - Oficina_A PC2](https://github.com/user-attachments/assets/243cfb21-939d-4f2f-a95b-1238c3e87b9a)
+  <br>![Ping Recursos Humanos PC8 - Oficina_A PC2](https://github.com/user-attachments/assets/243cfb21-939d-4f2f-a95b-1238c3e87b9a)
 
 
 - **Ping entre TI (PC3) y Atención al Cliente (PC3)**  
-  ![Ping TI A PC3 - Atencion al Cliente PC3](https://github.com/user-attachments/assets/e2043073-4bd2-46c3-ba55-cbb037aed971)
+  <br>![Ping TI A PC3 - Atencion al Cliente PC3](https://github.com/user-attachments/assets/e2043073-4bd2-46c3-ba55-cbb037aed971)
 
 
 - **Ping entre Oficina B (PC5) y Ventas**  
-  ![Ping Oficina_B PC5 - Ventas](https://github.com/user-attachments/assets/d0034d8c-4869-475c-8921-640a0ad525aa)
+  <br>![Ping Oficina_B PC5 - Ventas](https://github.com/user-attachments/assets/d0034d8c-4869-475c-8921-640a0ad525aa)
 
 
 - **Ping entre Gerencia y Oficina C (PC10)**  
-  ![Ping Gerencia - Oficina_C PC10](https://github.com/user-attachments/assets/2a91713b-93c2-4253-9767-8b0a5d1ff286)
+  <br>![Ping Gerencia - Oficina_C PC10](https://github.com/user-attachments/assets/2a91713b-93c2-4253-9767-8b0a5d1ff286)
 
 
 ---
