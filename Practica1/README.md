@@ -67,7 +67,7 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 ## Pruebas de Conectividad: Pings entre Hosts
 
 - **Ping entre Administración y Recepción**  
-  ![Ping Administracion - Recepcion](https://github.com/user-attachments/assets/20ed28bb-cc7f-4ec2-aad6-c735a1aad456)
+  <br>![Ping Administracion - Recepcion](https://github.com/user-attachments/assets/20ed28bb-cc7f-4ec2-aad6-c735a1aad456)
 
 
 - **Ping entre Recursos Humanos (PC8) y Oficina A (PC2)**  
