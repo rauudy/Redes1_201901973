@@ -90,9 +90,9 @@ El aspirante debe diseñar la topología de una red para un negocio de tres nive
 
 ## Demostracion de Paquetes ARP/ICMP
 
-- **Capturas de Paquetes ARP/ICMP**
-<br>
-![<Diapositiva1](https://github.com/user-attachments/assets/ecc2d576-9ae6-4740-b358-369243ac0b35)
+- **Capturas de Paquetes ARP/ICMP**<br>
+
+![Diapositiva1](https://github.com/user-attachments/assets/ecc2d576-9ae6-4740-b358-369243ac0b35)
 ![Diapositiva2](https://github.com/user-attachments/assets/56ad601d-e011-40e3-8c02-624ebedf966c)
 ![Diapositiva3](https://github.com/user-attachments/assets/3de79966-7263-4ffa-ae9f-435735f45fa3)
 ![Diapositiva4](https://github.com/user-attachments/assets/8af4ef5c-bb28-49e2-86b8-17c46aeec483)
