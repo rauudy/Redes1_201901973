@@ -1,4 +1,8 @@
-# Manual Técnico - Práctica 1 REDES
+# Manual Técnico - Proyecto 1 REDES
+
+GRUPO 13
+- Raudy David Cabrera Contreras         201901973
+- Alejandro René Caballeros González    201903549
 
 ## Objetivos
 - **Demostrar el conocimiento adquirido** sobre la creación de VLANS y el protocolo VTP, lo que permitirá la segmentación lógica de la red para mejorar el rendimiento y la seguridad.
