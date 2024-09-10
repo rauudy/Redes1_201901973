@@ -1,10 +1,12 @@
 # Manual Técnico - Proyecto 1 REDES
 
 GRUPO 13
-- Raudy David Cabrera Contreras       - 201901973
-- Alejandro René Caballeros González  - 201903549
+
+- Raudy David Cabrera Contreras - 201901973
+- Alejandro René Caballeros González - 201903549
 
 ## Objetivos
+
 - **Demostrar el conocimiento adquirido** sobre la creación de VLANS y el protocolo VTP, lo que permitirá la segmentación lógica de la red para mejorar el rendimiento y la seguridad.
 - **Demostrar el conocimiento adquirido** sobre el Spanning Tree Protocol, que garantiza la redundancia y previene los bucles en la red.
 - **Desarrollar una topología de red** en Packet Tracer según las especificaciones dadas.
@@ -25,26 +27,29 @@ Terminaciones de carnet: 9 y 3. La suma 9+3 = 12 y se usara el ultimo digito **2
 
 ---
 
-
 ## 2. Capturas de la implementación de las topologías
 
 ### Centro Administrativo
+
 ![image](img/31.png)
 
 ### Backbone
+
 ![image](img/32.png)
 
 ### Área de trabajo
+
 ![image](img/33.png)
 
 ### Vista Completa
+
 ![image](img/30.png)
 
 ## 3. Detalle de los comandos usados
 
 ### Configuración de Switch como Servidor (SW1)
 
-``` 
+``` switch
 enable
 configure terminal
 vtp mode server
@@ -55,11 +60,12 @@ exit
 wr 
 show vtp status  
 ```
+
 ![image](img/2.png)
 
 ### Configuración de los demás Switch como Cliente
 
-``` 
+```  switch
 enable
 configure terminal
 vtp mode client
@@ -70,12 +76,13 @@ exit
 wr
 show vtp status
 ```
-![image](img/3.png)
 
+![image](img/3.png)
+![image](img/5.png)
 
 ### Configuración de un Switch como Transparente (SW9)
 
-``` 
+```  switch
 enable
 configure terminal
 vtp mode transparent
@@ -84,13 +91,13 @@ exit
 wr
 show vtp status
 ```
+
 ![image](img/4.png)
-![image](img/5.png)
 
 
 ### Configuración de Modo Troncal entre Switches 2960
 
-``` 
+```  switch
 enable 
 configure terminal
 interface range f0/1-7
@@ -101,13 +108,13 @@ exit
 wr
 show run //para verificar si se configuró el modo troncal
 ```
+
 ![image](img/6.png)
 ![image](img/7.png)
 
-
 ### Configuración de Modo Troncal entre Switches 3560
 
-``` 
+```  switch
 enable 
 configure terminal
 interface range f0/1-7
@@ -119,13 +126,13 @@ exit
 wr
 show run //para verificar si se configuró el modo troncal
 ```
+
 ![image](img/8.png)
 ![image](img/9.png)
 
-
 ### Configuración de las VLANS desde el servidor
 
-``` 
+```  switch
 enable
 configure terminal
 vlan 22
@@ -143,14 +150,38 @@ exit
 exit
 show vlan //mostrar los vlans
 ```
+
 ![image](img/10.png)
 ![image](img/11.png)
 
+### Configuración de las VLANS desde el transparente
+
+```switch
+enable
+configure terminal
+vlan 22
+name Contabilidad
+exit
+vlan 32
+name Secretaria
+exit
+vlan 42
+name RRHH
+exit
+vlan 52
+name IT
+exit
+exit
+show vlan
+
+```
+![image](img/14.png)
 
 ### Configuración de los Switch a todas las PC los VLANS en los f0/#
 
 - **Área: Contabilidad**  
-``` 
+
+```  switch 
 enable 
 configure terminal
 interface f0/13
@@ -163,8 +194,9 @@ wr
 exit
 ```
 
-- **Área: Secretaria**  
-``` 
+- **Área: Secretaria**
+
+```  switch
 enable 
 configure terminal
 interface f0/11
@@ -177,8 +209,9 @@ wr
 exit
 ```
 
-- **Área: RRHH**  
-``` 
+- **Área: RRHH**
+
+```  switch
 enable 
 configure terminal
 interface range f0/12-13
@@ -191,8 +224,9 @@ wr
 exit
 ```
 
-- **Área: IT**  
-``` 
+- **Área: IT**
+
+```  switch
 enable 
 configure terminal
 interface f0/12
@@ -204,19 +238,13 @@ exit
 wr
 exit
 ```
-``` 
-interface gi1/0/3
-interface range gi1/0/3-4
-```
 
 ![image](img/12.png)
-![image](img/14.png)
 ![image](img/15.png)
-
 
 ### Configuración de RSTP PVST al ROOT (SW1)
 
-``` 
+```  switch
 enable
 configure terminal
 spanning-tree mode rapid-pvst
@@ -225,12 +253,12 @@ exit
 wr
 show spanning-tree
 ```
-![image](img/20.png)
 
+![image](img/20.png)
 
 ### Configuración de RSTP PVST para los demás Switch
 
-``` 
+```  switch
 enable
 configure terminal
 spanning-tree mode rapid-pvst
@@ -238,12 +266,12 @@ exit
 wr
 show spanning-tree
 ```
+
 ![image](img/21.png)
 ![image](img/22.png)
 ![image](img/23.png)
 ![image](img/24.png)
 ![image](img/25.png)
-
 
 ## 4. Ping entre hosts
 
@@ -260,7 +288,8 @@ show spanning-tree
 ![image](img/19.png)
 
 - Validar rstp (-t ping extendido)
-``` 
+
+```  switch
 ping -t 192.168.xx.xx
 ```
 
@@ -284,8 +313,6 @@ ping -t 192.168.xx.xx
 
 ![image](img/29.png)
 
-
 ## Demostración de Funcionanmiento RSTP
 
 <https://youtu.be/1B0nsWt_zoQ>
-
