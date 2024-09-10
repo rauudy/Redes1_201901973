@@ -262,16 +262,12 @@ ping -t 192.168.xx.xx
 
 - **Ping entre área de RRHH**
 ![image](img/26.png)
-<br>
-Fuera del área
-<br>
+- **Ping fuera área de RRHH**
 ![image](img/27.png)
 
 - **Ping entre área de CONTABILIDAD**
 ![image](img/28.png)
-<br>
-Fuera del área
-<br>
+- **Ping fuera área de CONTABILIDAD**
 ![image](img/29.png)
 
 
