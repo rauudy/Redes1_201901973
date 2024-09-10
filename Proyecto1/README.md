@@ -260,14 +260,12 @@ show spanning-tree
 ping -t 192.168.xx.xx
 ```
 
-- **Ping entre área de RRHH**
+- **Ping entre/fuera área de RRHH**
 ![image](img/26.png)
-- **Ping fuera área de RRHH**
 ![image](img/27.png)
 
-- **Ping entre área de CONTABILIDAD**
+- **Ping entre/fuera área de CONTABILIDAD**
 ![image](img/28.png)
-- **Ping fuera área de CONTABILIDAD**
 ![image](img/29.png)
 
 
